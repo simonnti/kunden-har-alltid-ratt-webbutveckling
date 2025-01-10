@@ -5,24 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Submit a Recipe - SmartRecipes</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
-        <h1>SmartRecipes</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="submit.html">Submit a Recipe</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>SmartRecipes</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="submit.html" class="active">Submit a Recipe</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
         <section class="recipe-form">
             <h2>Submit Your Recipe</h2>
+            <p class="intro-text">Have a favorite recipe? Share it with the world! Fill out the form below to add your
+                recipe to our collection.</p>
             <form action="#" method="post" enctype="multipart/form-data">
                 <label for="title">Recipe Title:</label>
                 <input type="text" id="title" name="title" placeholder="Enter recipe title" required>
@@ -43,7 +47,9 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 SmartRecipes. All Rights Reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 SmartRecipes. All Rights Reserved.</p>
+        </div>
     </footer>
 </body>
 
